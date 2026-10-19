@@ -45,6 +45,10 @@ body {
   padding: 0 1.25rem;
 }
 
+.badge-soon {
+ opacity: .5; cursor: default; 
+}
+
 /* Header: app name over a single pitch contour, the one decorative element */
 .site-header {
   padding: 2.5rem 0 1.5rem;
@@ -181,6 +185,17 @@ a:focus-visible {
 }
 
 .store-links a {
+  display: inline-block;
+  padding: 0.65rem 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.store-links span {
   display: inline-block;
   padding: 0.65rem 1.1rem;
   border: 1px solid var(--line);
